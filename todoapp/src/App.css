@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: .64rem 0;
+  background-color:#38bdf8;
+  color: white;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+}
+
+/*---------------------------- Theam------------------------- */
+.theam{
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 70px;
+}
+
+/* --------------------------ADD TODO------------------------ */
+.add-todo{
+  display: flex;
+  justify-content: center;
+  background-color: #38bdf8;
+}
+#todo-ip{
+  width:30rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: .5rem;
+  margin: 1rem;
+}
+#btn-add{
+  width: 5rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: .5rem;
+  margin: 1rem;
+}
+
+/* -----------------------------TODO List------------------------------- */
+
+.todo-list{
+  color:black;
+  display:grid;
+  place-items: center;
+  margin: 1rem;
+}
+/* -------------------------Todo Cards--------------------------------- */
+
+.todo-card{
+  border:1px solid black;
+  background-color: whitesmoke;
+  width: 50vw;
+  border-radius: .3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.todo-card p{
+  font-size: 1rem;
+}
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-e, .btn-d{
+  margin: 0 .6rem;
+  font-size: 1rem;
+  border:none;
+  padding: 0.35rem .5rem;
+  border-radius: .64rem;
+}
+.btn-d{
+  color:whitesmoke;
+  background-color: red;
+}
+
+.btn-e{
+  color:whitesmoke;
+  background-color: #475569;
+}
